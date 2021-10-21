@@ -7,12 +7,12 @@ Just download the zip file Or clone the repo on your system and follow the usage
 
 ##setup
 You will have to set the directories yourself
-###In cookie.py
+##In cookie.py
 in line 4
 ```python
 options​.​add_argument​(​'--user-data-dir=C:/Users/<your user name>/AppData/Local/Google/Chrome/for_rid'​)
 ```
-###In whatsapp_bulk_messanger.py
+##In whatsapp_bulk_messanger.py
 In line 23
 ```python
 ​image_attach​.​send_keys​(​'C:​\\​Users​\\​,,<your user name>​\\​Desktop​\\​PYTHON​\\​tst.jpg'​)
