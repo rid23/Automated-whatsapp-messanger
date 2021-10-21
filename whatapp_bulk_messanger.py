@@ -20,7 +20,7 @@ def send_whatsapp(number):
 		sleep(2)
 		image_attach = driver.find_element_by_xpath("//input[@accept='image/*,video/mp4,video/3gpp,video/quicktime']")
 		sleep(0.5)
-		image_attach.send_keys('C:\\Users\\riddhi\\Desktop\\PYTHON\\tst.jpg')
+		image_attach.send_keys('C:\\Users\\<your user name>\\Desktop\\PYTHON\\tst.jpg')
 		sleep(2)
 		send_key = driver.find_element_by_xpath("//span[@data-testid='send']")
 		sleep(0.5)
@@ -37,8 +37,8 @@ def main():
 	
 if __name__ == '__main__':
 	options = webdriver.ChromeOptions()
-	options.add_argument("--user-data-dir=C:/Users/riddhi/AppData/Local/Google/Chrome/for_rid")
-	driver = webdriver.Chrome(executable_path = 'C:\\Users\\riddhi\\Desktop\\PYTHON\\chromedriver.exe',options = options)
+	options.add_argument("--user-data-dir=C:/Users/<your user name>/AppData/Local/Google/Chrome/for_rid")
+	driver = webdriver.Chrome(executable_path = 'C:\\Users\\<your user name>\\Desktop\\PYTHON\\chromedriver.exe',options = options)
 	main()
 	driver.quit()
 	print('operation successful')
