@@ -7,6 +7,10 @@ Just download the zip file Or clone the repo on your system and follow the usage
 
 ## setup
 You will have to set the directories yourself
+
+### NOTE - The numbers in the text file should be written like this : 
+![text](https://user-images.githubusercontent.com/65919389/138254996-bffcf07d-90ef-43b7-a977-c71053280edb.jpg)
+
 ##In cookie.py
 in line 4
 ```python
@@ -42,7 +46,8 @@ NOTE - this cookie.py program will store the session cookie on your pc so you wo
 
 After scanning the QR code close that chrome window.
 
-And run 
+And run
+
 ```bash
 python whatsapp_bulk_messanger.py
 ```
