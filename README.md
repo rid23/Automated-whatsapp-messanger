@@ -5,14 +5,14 @@ This is a python application to send bulk attachments to numbers from a text fil
 ## Installation
 Just download the zip file Or clone the repo on your system and follow the usage instructions below.
 
-##setup
+## setup
 You will have to set the directories yourself
 ##In cookie.py
 in line 4
 ```python
 options​.​add_argument​(​'--user-data-dir=C:/Users/<your user name>/AppData/Local/Google/Chrome/for_rid'​)
 ```
-##In whatsapp_bulk_messanger.py
+## In whatsapp_bulk_messanger.py
 In line 23
 ```python
 ​image_attach​.​send_keys​(​'C:​\\​Users​\\​,,<your user name>​\\​Desktop​\\​PYTHON​\\​tst.jpg'​)
@@ -31,7 +31,7 @@ In line 40 pass the directory from where the program will grab the session to by
 And keep the chromedriver.exe in the same direcotry as the program,or it will throw errors.
 
 
-##USAGE
+## USAGE
 1.At first you have to scan the whatsapp Web QR code,for that just run
 ```bash
 python cookie.py
